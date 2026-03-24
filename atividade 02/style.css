@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+
+body{
+    background-color: #A5A692;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+
+}
+
+h1 {
+    background-color: #011F26;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+
+h2 {
+    color: #025E73;
+    font-size: 1.5rem;
+}
+
+.autor {
+    background-color: #BFB78F;
+    text-align: right;
+    font-style: italic;
+    font-size: .8rem;
+}
+
+.separador {
+    color: #025E73;
+    text-align: center;
+}
+
+.tilt_neon {
+    font-family: 'Tilt Neon', sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.p1 {
+    font-weight: 700;
+}
+
+.p2 {
+    font-weight: 900;
+}
+
+.Roboto_Flex {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.p3 {
+    font-style: oblique 10deg;
+}
+
+.p4 {
+    font-style: oblique 20deg;
+}
+
+.img-teste {
+    width: 300px;
+}
+
+.olbebidas {
+    color: #e5e7eb;
+    list-style-position: inside;
+    max-width: 400px;
+    margin: auto;
+}
+
+.libebidas {
+    background-color: #374151;
+    border-radius: 12px;
+    padding: 12px 18px;
+    margin: 12px 0;
+    transition: 0.2s;
+}
+
+.libebidas:hover {
+    transform: translateX(6px);
+    background: #4b5563;
+}
+
+.libebidas:first-child::before {
+    content:"🏆";
+}
+
+.olaprender {
+    color: #000000;
+    max-width: 400px;
+    margin: auto;
+}
+
+.liaprender {
+    font-weight: bolder;
+    background:#f1bebe;
+    background-size: 100% 100%;
+    border-radius: 12px; 
+    padding: 14px 18px; 
+    margin: 12px 0; 
+    transition: 0.2s;
+    border-left: 6px solid #d45a5a;
+    
+}
+
+.liaprender:hover {
+    transform: translateX(6px); 
+    background: #ea9393; 
+}
+
+
+.liaprender2 {
+    font-weight: normal;
+    list-style: none;
+}
+
+.liaprender2:before {
+    content: "🎯";
+}
+
+.tachado {
+    text-decoration: line-through;
+    transform: translateX(6px);
+    color: #292929;
+}
+
+.liaprender2:hover {
+    transform: translateX(6px); 
+}
+
+a {
+    text-decoration: none;
+    color: #800000;
+    transition: 0.2s;
+    display: inline-block;
+    padding-left: 6px;
+    
+}
+
+a:hover {
+    color:#BA2D2D;
+    transform: translateX(6px) scale(1.1);
+    font-weight: 700;
+    border-left: 4px solid #BA2D2D;
+}
+
+
+
